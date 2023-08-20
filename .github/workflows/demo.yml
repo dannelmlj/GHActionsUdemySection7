@@ -81,6 +81,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Output error
-      - run: |
+        run: |
             echo "error, oh no!"
             echo "{{toJSON(github)}}"
